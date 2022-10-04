@@ -1,0 +1,20 @@
+export const ServiceData3 = [
+    {
+        number: "4",
+        title: "Environmental Management Consultancy",
+        text: "With a team of highly professional and experienced multi-disciplined staff of scientists, engineers and other consultants. Geoleum offers a complete range of environmental consulting services to our clients in the property and construction, infrastructure, industry, energy, public sectors and ensure that we work hard to provide the required consulting services and solutions needed to accomplish their business goals and objectives.",
+        list1: "Natural resource management consulting services",
+        list2: "Environmental Assessments",
+        list3: "Site remediation services",
+        list4: "Waste management consulting services",
+        list5: "Policy, licensing and litigation support services",
+        list6: "Natural resource management consulting services",
+        list7: "Environmental audits",
+        list8: "Specialized environmental consulting services",
+        list9: "Contamination control consulting",
+        list10: "Radiography",
+        list11: "Risk evaluation",
+        list12: "Air and water quality consulting",
+        list13: "Sustainable development consulting",
+    },
+]

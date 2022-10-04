@@ -1,0 +1,37 @@
+export const ServiceData = [
+    {
+        number: "2",
+        title: "Asset Intergrity Management Services",
+        text: "Geoleum has highly qualified professionals with international certifications and we offer a wide range of technical inspection services that sustains your assets, increases productivity and reduces risk for clients, host communities and employees.",
+        subtitle: "Non-Destructive Testing",
+        subtitle1: "Conventional NDT",
+        list1: "Visual Inspection",
+        list2: "Ultra Sonic Testing",
+        list3: "Radiography",
+        list4: "Magnetic Particle Inspection",
+        list5: "Eddy Current Testing",
+        list6: "Dye Penetration",
+
+        subtitle2: "Specialized NDT",
+        list11: "Advanced UT",
+        list12: "ABI Scan",
+        list13: "Guided Wave",
+        list14: "Corrosion Mapping",
+        list15: "Phased Array Internal",
+        list16: "Long Range Ultrasonic",
+        list17: "Time of Flight Diffraction",
+        list18: "Computed Radiography",
+        list19: "Magnetic Flux Leakage Testing",
+        list20: "Tube Inspections",
+        list21: "Eddy Current",
+        list22: "Pulsed Eddy Current Testing",
+        list23: "Internal Rotary Inspection System (IRIS)",
+        list24: "Storage Tank Cleaning &  Inspection Services",
+        list25: "Corrosion Under Insulation",
+        list26: "Infrared Thermography",
+        list27: "Alternating Current Field Measurement",
+
+        subtitle3: "Rope Access",
+        text2: "We also provide IRATA certified Rope Access crew."
+    },
+]
