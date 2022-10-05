@@ -39,8 +39,8 @@ const pipeFittings = ({ data, loading }) => {
         <Navbar />
         <FilterProductsNav title={"Pipe Fittings&Valves"}/>
         <Container>
+          <CategoryNav />
           <div className="container">
-            <CategoryNav />
             <div className="left">
               <CategoryAside />
             </div>

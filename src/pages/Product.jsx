@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react'
 import { Fade } from 'react-reveal'
 import { useParams } from 'react-router-dom'
 import styled from 'styled-components'
-import CategoryAside from '../components/CategoryAside'
 import CategoryNav from '../components/CategoryNav'
 import Copyright from '../components/Copyright'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import ProductCategoryAside from '../components/ProductCategoryAside'
 import ProductNav from '../components/ProductNav'
 import Spinner from '../components/Spinner'
 
@@ -42,11 +42,13 @@ const Product = () => {
     <>
       <Navbar />
       <ProductNav title={post.title}/>
-      <Container id={`product/${post._id}`}>
+      <Container id={post._id}>
+          <Fade>
+            <CategoryNav />
+          </Fade>
           <div className="container">
             <div className="left">
-              <CategoryNav />
-              <CategoryAside />
+              <ProductCategoryAside />
             </div>
               <div className="right_div">
               { isLoading ?
@@ -110,7 +112,7 @@ const Product = () => {
           </div>
       </Container>
       <Footer />
-      <Copyright href={"/product/:id"} />
+      <Copyright href={post._id} />
     </>
   )
 }
@@ -145,7 +147,6 @@ const Container = styled.div`
     .left{
       flex: 0.3;
 
-      
       margin-top: 0.5rem;
       margin-left: 0.5rem;
       
@@ -222,30 +223,26 @@ const Container = styled.div`
 
         .text{
           font-size: 16px;
-          letter-spacing: 2px;
-          line-height: 1.65;
+          line-height: 1.5;
           color: #4e4d4d;
           padding: 0 4rem;
 
           margin-bottom: 2rem;
 
           @media screen and (max-width: 985px) {
-            letter-spacing: 3px;
             padding: 0 1rem;
           }
         }
 
         .text1{
           font-size: 16px;
-          letter-spacing: 2px;
-          line-height: 1.65;
+          line-height: 1.55;
           color: #4e4d4d;
           
           padding: 0 4rem;
           margin-bottom: 2rem;
 
           @media screen and (max-width: 985px) {
-            letter-spacing: 3px;
             padding: 0 1rem;
           }
         }
@@ -260,15 +257,13 @@ const Container = styled.div`
 
           .text{
             font-size: 16px;
-            letter-spacing: 2px;
-            line-height: 1.65;
+            line-height: 1.5;
             color: #292828;
             padding: 0 4rem;
 
             margin-bottom: 1rem;
 
             @media screen and (max-width: 985px) {
-              letter-spacing: 3px;
               padding: 0 1rem;
             }
           }
@@ -277,8 +272,6 @@ const Container = styled.div`
             color: #292828;
             font-size: 18px;
             font-weight: 600;
-            text-decoration: underline;
-            letter-spacing: 3px;
             padding: 0 4rem;
 
             margin-bottom: 1rem;
@@ -319,8 +312,6 @@ const Container = styled.div`
             color: #292828;
             font-size: 18px;
             font-weight: 600;
-            text-decoration: underline;
-            letter-spacing: 3px;
             padding: 0 4rem;
 
             margin-bottom: 1rem;
@@ -332,15 +323,14 @@ const Container = styled.div`
 
           .text{
             font-size: 16px;
-            letter-spacing: 2px;
-            line-height: 1.65;
+            line-height: 1.5;
             color: #292828;
             padding: 0 4rem;
 
             margin-bottom: 1rem;
 
             @media screen and (max-width: 985px) {
-              letter-spacing: 3px;
+
               padding: 0 1rem;
             }
           }

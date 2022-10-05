@@ -7,9 +7,9 @@ import GearBg from '../components/GearBg'
 import MiniNav from '../components/MiniNav'
 import { Fade } from "react-reveal"
 import AboutAccordion from '../components/AboutAccordion'
-import { Link } from 'react-router-dom'
-import { HiArrowRight } from 'react-icons/hi'
-import { ContactData } from '../data/ContactData'
+// import { Link } from 'react-router-dom'
+// import { HiArrowRight } from 'react-icons/hi'
+// import { ContactData } from '../data/ContactData'
 
 const About = ({slides}) => {
   const [current, setCurrent] = useState(0);
@@ -75,7 +75,7 @@ const About = ({slides}) => {
           </div>
           </Fade>
         </div>
-        <Fade>
+        {/* <Fade>
         <div className="down">
           <div className="left">
             <span>Looking For <>{ContactData.map((item, index) => {
@@ -92,10 +92,10 @@ const About = ({slides}) => {
             <Link to='/contact' className='nav_link'>Contact Us Today <HiArrowRight /> </Link>
           </div>
         </div>
-        </Fade>
+        </Fade> */}
       </Container>
       <GearBg />
-      <Footer />
+      <Footer slides={slides} />
       <Copyright href="/about"/>
     </>
   )

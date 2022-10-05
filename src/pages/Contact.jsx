@@ -9,7 +9,6 @@ import { HiMail } from 'react-icons/hi'
 import { ImLocation2 } from 'react-icons/im'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import emailjs from '@emailjs/browser'
-import img from "../assets/img11.jpg"
 import AlertPopup from "../components/alertMessage/AlertPopup"
 import MiniNav from '../components/MiniNav'
 import { Fade } from "react-reveal"
@@ -38,8 +37,22 @@ const Contact = () => {
         <Fade bottom>
           <div className="top">
             <div className="img_section">
-              <img src={img} alt="" />
+              <div className="img">
+                <img src="https://upload.digoodcms.com/690/image_1663574075_L80-13CR-ZC-2-to-WAHA-OIL.jpg" alt="" />
+              </div>
+              <div className="img">
+                <img src="https://upload.digoodcms.com/690/image_1620357048_%E5%B0%8F%E5%8F%A3%E5%BE%84%E7%AE%A1%E7%BA%BF.JPG" alt="" />
+              </div>
+              <div className="img">
+                <img src="https://upload.digoodcms.com/690/image_1620287434_N80-Q-tubing.JPG" alt="" />
+              </div>
+              <div className="img">
+                <img src="https://upload.digoodcms.com/690/image_1617258558_Drill-Pipe.jpg" alt="" />
+              </div>
             </div>
+            {/* <div className="img_section">
+              <img src={img} alt="" />
+            </div> */}
           </div>
         </Fade>
           <div className="middle">
@@ -128,6 +141,21 @@ const Container = styled.section`
     margin-bottom: 2rem;
 
     .img_section{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      /* column-gap: 1rem;
+      grid-gap: 1rem; */
+      
+      .img{
+      
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    /* .img_section{
       max-height: 85vh;
       overflow: hidden;
       img{
@@ -135,7 +163,7 @@ const Container = styled.section`
         height: 100%;
         object-fit: cover;
       }
-    }
+    } */
   }
   
   .middle{

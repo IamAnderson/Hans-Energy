@@ -61,7 +61,8 @@ const Container = styled.div`
     
     padding: 2rem 6rem;
     margin-bottom: 4rem;
-    background-color: #5fb7f3;
+    /* background-color: #008000be; */
+    background-color: #ec4a0fd8;
 
     @media screen and (max-width: 985px) {
       flex-direction: column;

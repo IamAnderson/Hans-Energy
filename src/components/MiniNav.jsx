@@ -55,7 +55,7 @@ const MiniNav = ({ title }) => {
 
         <Selector>
           <Link to='/' style={{textDecoration: 'none', color: '#fff'}} className="selector"><AiFillHome />Home</Link> 
-          <p style={{color: "#fff"}}>/ {title}</p>
+          <p style={{color: "green"}}>/ {title}</p>
         </Selector>
     </Container>
   )

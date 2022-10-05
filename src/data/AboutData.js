@@ -21,6 +21,7 @@ export const AboutData = [
         text2: "“Perfection is not attainable, but if we chase perfection, we can catch excellence”- Vince Lombardi. We aim to deliver the best in all projects undertaken.",
         subtitle3: "Action Bias",
         text3: "“Action is the foundational key to all success.”- Pablo Picasso. We are proactive, action oriented, dependable and ethical, not compromising quality, health, safety and environmental standards.",
+        subtitle4: "Motivation",
         text4: "Motivation: “Your limitation – It’s only your imagination”. We are a motivated team continuously improving to serve our client and community better."
     }
 ]

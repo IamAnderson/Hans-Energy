@@ -74,6 +74,9 @@ const AboutAccordion = () => {
                                         </div>
                                         </div>
                                         <div className="div_4">
+                                        <div className="subtitle3">
+                                            {item.subtitle4}
+                                        </div>
                                         <div className="text4">
                                             {item.text4}
                                         </div>
@@ -141,7 +144,7 @@ const Box = styled.div`
             padding: 0.25rem 0.5rem;
             font-weight: 600;
             border-radius: 50%;
-            background-color: #5fb7f3;
+            background-color: green;
             margin-right: 0.75rem;
         }
     }
@@ -215,6 +218,12 @@ const Div = styled.div`
             }
         }
         .div_4{
+
+            .subtitle3{
+                color: #777777;
+                font-weight: 600;
+                margin-bottom: 1rem;
+            }
 
             .text4{
                 color: #777777;

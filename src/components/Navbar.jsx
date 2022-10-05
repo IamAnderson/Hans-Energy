@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import logo from "../assets/img1.jpg"
-import { FaBars, FaFacebookF, FaInstagram, FaLinkedinIn, FaSkype, FaTimes, FaYoutube } from "react-icons/fa"
+import { FaBars, FaFacebookF, FaInstagram, FaTimes, FaWhatsapp } from "react-icons/fa"
 import Sidebar from './Sidebar'
 import { NavLink } from 'react-router-dom'
 import { HiMail } from 'react-icons/hi'
 import { IoIosSearch } from "react-icons/io"
-import { AiOutlineTwitter, AiTwotonePhone } from 'react-icons/ai'
+import { AiTwotonePhone } from 'react-icons/ai'
 import Asidebar from './Asidebar'
 
 const Navbar = () => {
@@ -47,11 +47,12 @@ let activeStyle1 = {
                 </div>
                 <div className="text_list">
                     <a href='https://www.instagram.com/GeoleumEnergy' className='a'><FaInstagram /></a>
-                    <a href='/' className='a1'><AiOutlineTwitter /></a>
+                    {/* <a href='/' className='a1'><AiOutlineTwitter /></a> */}
                     <a href='/' className='a2'><FaFacebookF /></a>
-                    <a href='/' className='a3'><FaLinkedinIn /></a>
-                    <a href='/' className='a4'><FaSkype /></a>
-                    <a href='/' className='a5'><FaYoutube /></a>
+                    <a href='https://wa.me/+2348022268491' className='a3'><FaWhatsapp /></a>
+                    {/* <a href='/' className='a3'><FaLinkedinIn /></a> */}
+                    {/* <a href='/' className='a4'><FaSkype /></a>
+                    <a href='/' className='a5'><FaYoutube /></a> */}
                 </div>
             </section>
             <section className="nav">
@@ -218,7 +219,7 @@ const Container = styled.nav`
             .a3{
 
                 &:hover{
-                    color: teal;
+                    color: green;
                 }
             }
             

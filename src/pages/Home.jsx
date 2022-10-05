@@ -304,7 +304,7 @@ const Container = styled.section`
       border-right: 1px solid #efefef;
 
       .number{
-        color: #5fb7f3;
+        color: green;
         font-size: 28px;
         font-weight: 600;
 

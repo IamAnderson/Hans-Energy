@@ -1,7 +1,7 @@
 export const CategoryData = [
     {
         text9: "All Products",
-        text: "OTCG for Oil and Gas Industry",
+        text: "OCTG for Oil and Gas Industry",
         text1: "Seamless Pipes for Boilers / Engineering / Mechanical",
         text2: "Welded",
         text3: "Stainless Steel",

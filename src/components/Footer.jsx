@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { AiOutlineTwitter } from "react-icons/ai"
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaSkype, FaYoutube } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { Fade } from "react-reveal"
 
 const Footer = () => {
@@ -26,15 +25,16 @@ const Footer = () => {
         <div className="right">
             <div className="first_div">
                 <div className="title">
-                    Get Touch
+                    Get In Touch
                 </div>
                 <div className="text_list">
-                    <A href='https://www.instagram.com/GeoleumEnergy' className='a'> <Span5 className='span'><FaInstagram /></Span5>Instagram</A>
-                    <A href='/' className='a'> <Span className='span'><AiOutlineTwitter /></Span>Twitter</A>
+                    <A href='https://www.instagram.com/GeoleumEnergy' target="_blank" className='a'> <Span5 className='span'><FaInstagram /></Span5>Instagram</A>
+                    <A href='https://wa.me/+2348022268491' target="_blank" className='a'> <Span className='span'><FaWhatsapp /></Span>Whatsapp</A>
+                    {/* <A href='/' className='a'> <Span className='span'><AiOutlineTwitter /></Span>Twitter</A> */}
                     <A href='/' className='a'> <Span1 className='span'><FaFacebookF /></Span1>Facebook</A>
-                    <A href='/' className='a'> <Span2 className='span'><FaLinkedinIn /></Span2>LinkedIn</A>
+                    {/* <A href='/' className='a'> <Span2 className='span'><FaLinkedinIn /></Span2>LinkedIn</A>
                     <A href='/' className='a'> <Span3 className='span'><FaSkype /></Span3>Skype</A>
-                    <A href='/' className='a'> <Span4 className='span'><FaYoutube /></Span4>Youtube</A>
+                    <A href='/' className='a'> <Span4 className='span'><FaYoutube /></Span4>Youtube</A> */}
                 </div>
             </div>
             <div className="second_div">
@@ -94,7 +94,7 @@ const Container = styled.footer`
                     top: -18px;
                     width: inherit;
                     color: transparent;
-                    background-color: #5fb7f3;
+                    background-color: #ec4a0f;
                 }
                 .title{
                     padding: 0 2rem;
@@ -121,9 +121,11 @@ const Container = styled.footer`
         justify-content: flex-end;
 
         @media screen and (max-width: 985px) {
-            flex-direction: column;
+            display: none;
+
+            /* flex-direction: column;
             padding: 4rem 2rem;
-            margin-left: 0;
+            margin-left: 0; */
         }
 
         .first_div{
@@ -246,7 +248,8 @@ const A = styled.a`
     margin-bottom: 1.5rem;
 
     &:hover ${Span} {
-        background-color: #1c8fbd;
+        /* background-color: #1c8fbd; */
+        background-color: green;
     }
 
     &:hover ${Span1} {

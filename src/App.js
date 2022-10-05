@@ -36,8 +36,6 @@ function App() {
       console.log(error.response)
     }
   };
-
-  // check db.. Cables, pipeFittings and  stainless pipe
   
   useEffect(() => {
     getProducts();

@@ -417,7 +417,7 @@ const Box = styled.div`
             padding: 0.25rem 0.5rem;
             font-weight: 600;
             border-radius: 50%;
-            background-color: #5fb7f3;
+            background-color: green;
             margin-right: 0.75rem;
         }
     }

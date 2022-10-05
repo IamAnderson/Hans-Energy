@@ -54,7 +54,7 @@ const Container = styled.section`
   
   .text{
     font-size: 18px;
-    color: #5fb7f3;
+    color: #ec4a0f;
     margin-bottom: 12rem;
   }
   

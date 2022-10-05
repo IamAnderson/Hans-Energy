@@ -8,7 +8,7 @@ const Container = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #016684;
+    background-color: #1a1a1a;
     padding: 3rem 6rem;
     margin-bottom: 4rem;
 
@@ -22,7 +22,7 @@ const Container = styled.nav`
 `
 
 const Title = styled.h1`
-    color: #fff;
+    color: green;
     font-size: 24px;
     font-weight: 600;
 `
@@ -55,7 +55,7 @@ const ProductNav = ({ title }) => {
 
         <Selector>
           <Link to='/products' style={{textDecoration: 'none', color: '#fff'}} className="selector"><AiFillHome />Products</Link>
-          <p style={{color: "#fff"}}>/ {title}</p>
+          <p style={{color: "#ec4a0f"}}>/ {title}</p>
         </Selector>
     </Container>
   )

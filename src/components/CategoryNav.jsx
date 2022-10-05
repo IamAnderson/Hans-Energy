@@ -17,7 +17,7 @@ const CategoryNav = () => {
     };
 
     let activeStyle = {
-        color: "teal"
+        color: "green"
       }
 
   return (
@@ -100,7 +100,7 @@ const Box = styled.div`
 
     padding: 0.5rem;
     margin-bottom: 1.25rem;
-    border: 1px solid teal;
+    border: 1px solid #ec4a0f;
     width: 100%;
 
     cursor: pointer;
