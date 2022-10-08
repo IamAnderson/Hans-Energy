@@ -178,8 +178,8 @@ const Container = styled.div`
 
           cursor: pointer;
 
-          &:hover{
-            scale: 120%;
+          &:active{
+            scale: 110%;
           }
 
           @media screen and (max-width: 985px) {
@@ -188,12 +188,8 @@ const Container = styled.div`
             padding-right: 1.25rem;
             padding-bottom: 2rem;
 
-            &:hover{
-              scale: none;
-            }
-
             &:active{
-              scale: 120%;
+              scale: 110%;
             }
           }
 
