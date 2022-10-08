@@ -95,9 +95,9 @@ const Product = () => {
                   </div> */}
                   <div className="advantage">
                     <Fade>
-                    <div className="subtitle">
+                    {/* <div className="subtitle">
                       Advantage / Usage
-                    </div>
+                    </div> */}
                     </Fade>
                     <Fade>
                     <div className="text">
