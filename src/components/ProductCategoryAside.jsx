@@ -74,7 +74,7 @@ const Container = styled.div`
           line-height: 1.25;
           color: #000;
           padding: 1rem;
-          border-bottom: 1px solid #fff;
+          border-bottom: 1px solid #1a1a1a;
           width: 100%;
           transition: 0.35s ease all;
 
