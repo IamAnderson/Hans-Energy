@@ -55,7 +55,7 @@ const Copyright = ({href}) => {
             <Fade>
             <div className="left">
                 <div className='text'>
-                    © 2022 Geoleum Energy. All rights reserved | <span className='_dev'> Built by <Link to={{pathname: "//portfolio-iamanderson.vercel.app/"}} target= "_blank" >Andy</Link> </span>
+                    © 2022 Geoleum Energy. All rights reserved{/*| <span className='_dev'> Built by <Link to={{pathname: "//portfolio-iamanderson.vercel.app/"}} target= "_blank" >Andy</Link> </span> */}
                 </div>
                 <div className="div">
                     <div className='text2'>
