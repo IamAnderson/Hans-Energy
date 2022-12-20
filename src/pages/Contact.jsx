@@ -11,6 +11,7 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import emailjs from '@emailjs/browser'
 import AlertPopup from "../components/alertMessage/AlertPopup"
 import MiniNav from '../components/MiniNav'
+import img from "../assets/img11.jpg"
 import { Fade } from "react-reveal"
 
 const Contact = () => {
@@ -37,22 +38,8 @@ const Contact = () => {
         <Fade bottom>
           <div className="top">
             <div className="img_section">
-              <div className="img">
-                <img src="https://upload.digoodcms.com/690/image_1663574075_L80-13CR-ZC-2-to-WAHA-OIL.jpg" alt="" />
-              </div>
-              <div className="img">
-                <img src="https://upload.digoodcms.com/690/image_1620357048_%E5%B0%8F%E5%8F%A3%E5%BE%84%E7%AE%A1%E7%BA%BF.JPG" alt="" />
-              </div>
-              <div className="img">
-                <img src="https://upload.digoodcms.com/690/image_1620287434_N80-Q-tubing.JPG" alt="" />
-              </div>
-              <div className="img">
-                <img src="https://upload.digoodcms.com/690/image_1617258558_Drill-Pipe.jpg" alt="" />
-              </div>
-            </div>
-            {/* <div className="img_section">
               <img src={img} alt="" />
-            </div> */}
+            </div>
           </div>
         </Fade>
           <div className="middle">
@@ -64,14 +51,14 @@ const Contact = () => {
               </header>
               <div className="contact_info">
               <Fade bottom>
-                  <span><ImLocation2 style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> 1 Remi Olowude Street, Okunde Bluewater Scheme </span>
-                  <span><ImLocation2 style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> Lekki Peninsula Scheme 1 (Marwa Bus Stop) </span>
-                  <span><ImLocation2 style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> Lekki, Lagos, Nigeria </span>
-                  <span><AiTwotonePhone style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> +234 802 226 8491 </span>
-                  <span><HiMail style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> info@geoleum.com.ng </span>
+                  <span><ImLocation2 style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dicta. </span>
+                  <span><ImLocation2 style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> Lorem ipsum dolor sit amet. </span>
+                  <span><ImLocation2 style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> Lorem, ipsum dolor. </span>
+                  <span><AiTwotonePhone style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> +234 456 6789 </span>
+                  <span><HiMail style={{marginRight: "0.75rem", fontSize: "1.5rem"}}/> hans.email.com </span>
                   <div>
-                    <a href='https://wa.me/+2348022268491' target="_blank" rel='noreferrer' style={{marginRight: "0.75rem", color:"green"}}> <FaWhatsapp /> </a>
-                    <a href='https://www.instagram.com/GeoleumEnergy' target="_blank" rel='noreferrer' style={{marginRight: "0.75rem", color:"#d6249f"}}> <FaInstagram /> </a>
+                    <a href='/' target="_blank" rel='noreferrer' style={{marginRight: "0.75rem", color:"green"}}> <FaWhatsapp /> </a>
+                    <a href='/' target="_blank" rel='noreferrer' style={{marginRight: "0.75rem", color:"#d6249f"}}> <FaInstagram /> </a>
                   </div>
               </Fade> 
               </div>
@@ -106,14 +93,14 @@ const Contact = () => {
           </div>
           <Fade bottom>
           <div className="down">
-            <MapContainer center={[6.427503011157914, 3.468543743415752]} zoom={15} scrollWheelZoom={false}>
+            <MapContainer center={[50, 50]} zoom={15} scrollWheelZoom={false}>
               <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
-              <Marker position={[6.427503011157914, 3.468543743415752]}>
+              <Marker position={[50, 50]}>
               <Popup>
-                Geoleum Energy.
+                Hans Energy.
               </Popup>
               </Marker>
             </MapContainer>
@@ -141,21 +128,6 @@ const Container = styled.section`
     margin-bottom: 2rem;
 
     .img_section{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      /* column-gap: 1rem;
-      grid-gap: 1rem; */
-      
-      .img{
-      
-        img{
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-    }
-    /* .img_section{
       max-height: 85vh;
       overflow: hidden;
       img{
@@ -163,7 +135,7 @@ const Container = styled.section`
         height: 100%;
         object-fit: cover;
       }
-    } */
+    }
   }
   
   .middle{

@@ -28,7 +28,7 @@ const Services = () => {
           <div className="middle">
             <Fade bottom>
             <div className="text">
-              Geoleum Services
+              Hans Energy Services
             </div>
             </Fade>
             <Fade bottom>

@@ -15,7 +15,7 @@ const Career = () => {
         <Container id='career'>
         <Fade bottom>
           <div className="text">
-            Currently no vacancies available...Please check back in the future
+            Currently no vacancies available...
           </div>
         </Fade>
           <div className="enquires">

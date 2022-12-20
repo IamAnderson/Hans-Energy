@@ -22,7 +22,7 @@ const AboutAccordion = () => {
     <Container>
         <Fade bottom>
         <div className="title">
-            Geoleum Energy
+            Hans Energy
         </div>
         </Fade>
         {AboutData.map((item, index) => {

@@ -13,22 +13,22 @@ const Asidebar = ({showAside, toggleAside}) => {
             <div className="subtitle">
               Address
             </div>
-            <p>Lagos Court of Arbitration Building,</p>
-            <span>1 Remi Olowude Street, Okunde Bluewater Scheme</span>
-            <span>Lekki Peninsula Scheme 1 (Marwa Bus Stop)</span>
-            <span>Lekki, Lagos, Nigeria</span>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum.</span>
+            <span>Lorem ipsum dolor sit amet.</span>
+            <span>Lorem, ipsum dolor.</span>
           </div>
           <div className="second">
             <div className="subtitle">
               Phone
             </div>
-            <span>+234 818 769 4700</span>
+            <span>+234 456 6789</span>
           </div>
           <div className="third">
             <div className="subtitle">
               Email
             </div>
-            <span>info@geoleum.com.ng</span>
+            <span>hans.email.com</span>
           </div>
        </Div>
     </Container>

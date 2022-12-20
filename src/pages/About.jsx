@@ -50,7 +50,7 @@ const About = ({slides}) => {
             <Fade bottom cascade>
               <div className="text_left">
                 <article className="text">
-                Geoleum Energy Limited offers <b> asset integrity and engineering solutions</b> to the Energy and Non-Energy sectors in Nigeria and the Gulf of Guinea. 
+                Hans Energy Limited offers <b> asset integrity and engineering solutions</b> to the Energy and Non-Energy sectors in Nigeria and the Gulf of Guinea. 
                 </article>
                 <article className="text">
                   Our goal is to continuously provide superior value to our clients by collaborating with them to meet their corporate objectives, supporting them to maximize their operational performance and maintaining the safety and integrity of their assets whilst allowing them concentrate on their core competences.

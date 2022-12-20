@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import logo from "../assets/favicon.png"
+import logo from "../../public/favicon.png"
 import { FaBars, FaFacebookF, FaInstagram, FaTimes, FaWhatsapp } from "react-icons/fa"
 import Sidebar from './Sidebar'
 import { NavLink } from 'react-router-dom'

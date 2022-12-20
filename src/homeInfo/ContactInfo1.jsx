@@ -20,7 +20,7 @@ const ContactInfo1 = () => {
         <Fade bottom cascade>
         <div className="left">
           <div className="heading">
-            Geoleum, where?
+            Hans Energy, where?
           </div>
           <div className="title">
             Available Worldwide

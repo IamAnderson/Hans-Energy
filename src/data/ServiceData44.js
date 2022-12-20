@@ -2,7 +2,7 @@ export const ServiceData44 = [
     {
         number: "1",
         title: "Engineering Support",
-        text: "Partnering with renowned Original Equipment Manufacturers and strategic alliances, Geoleum provides engineering support for offshore / onshore projects which includes but not limited to the following:",
+        text: "Partnering with renowned Original Equipment Manufacturers and strategic alliances, Hans provides engineering support for offshore / onshore projects which includes but not limited to the following:",
         subtitle: "EPCIC",
         subtitle1: "Mechanical / Piping",
         list1: "Pipe Stress Analysis",
@@ -39,7 +39,7 @@ export const ServiceData44 = [
     {
         number: "2",
         title: "Asset Integrity Management Services",
-        text: "Geoleum has highly qualified professionals with international certifications and we offer a wide range of technical inspection services that sustains your assets, increases productivity and reduces risk for clients, host communities and employees.",
+        text: "Hans has highly qualified professionals with international certifications and we offer a wide range of technical inspection services that sustains your assets, increases productivity and reduces risk for clients, host communities and employees.",
         subtitle: "Non-Destructive Testing",
         subtitle1: "Conventional NDT",
         list1: "Visual Inspection",

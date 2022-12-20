@@ -28,8 +28,8 @@ const Footer = () => {
                     Get In Touch
                 </div>
                 <div className="text_list">
-                    <A href='https://www.instagram.com/GeoleumEnergy' target="_blank" className='a'> <Span5 className='span'><FaInstagram /></Span5>Instagram</A>
-                    <A href='https://wa.me/+2348022268491' target="_blank" className='a'> <Span className='span'><FaWhatsapp /></Span>Whatsapp</A>
+                    <A href='/' target="_blank" className='a'> <Span5 className='span'><FaInstagram /></Span5>Instagram</A>
+                    <A href='/' target="_blank" className='a'> <Span className='span'><FaWhatsapp /></Span>Whatsapp</A>
                     {/* <A href='/' className='a'> <Span className='span'><AiOutlineTwitter /></Span>Twitter</A> */}
                     <A href='/' className='a'> <Span1 className='span'><FaFacebookF /></Span1>Facebook</A>
                     {/* <A href='/' className='a'> <Span2 className='span'><FaLinkedinIn /></Span2>LinkedIn</A>
