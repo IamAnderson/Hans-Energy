@@ -17,7 +17,7 @@ const Product = () => {
   const [isLoading, setisLoading] = useState(false);
   const { id } = useParams();
 
-  const url = "https://geoleumapi.herokuapp.com/api/products"
+  const url = "https://hansenergy.onrender.com/api/products"
 
     const getProducts = () => {
       axios.get(url)

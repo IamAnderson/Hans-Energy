@@ -17,7 +17,7 @@ const AdminDashboard = () => {
 
   const [targetId, setTargetId] = useState("");
 
-  const url = "https://geoleumapi.herokuapp.com/api/products"
+  const url = "https://hansenergy.onrender.com/api/products"
 
   const createProduct = async (e) => {
     e.preventDefault();

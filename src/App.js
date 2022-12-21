@@ -15,14 +15,13 @@ import Cables from './filteredPages/Cables';
 import { useEffect, useState } from 'react';
 import axios from "axios";
 import Others from './filteredPages/Others';
-import AdminDashboard from './pages/AdminDashboard';
 
 
 function App() {
   const [items, setItems] = useState([]);
   const [isLoading, setisLoading] = useState(false);
 
-  const url = "https://geoleumapi.herokuapp.com/api/products"
+  const url = "https://hansenergy.onrender.com/api/products"
 
   const getProducts = () => {
     try {
@@ -61,7 +60,6 @@ function App() {
           <Route path="/welded" element={<Welded data={items} loading={isLoading}/>} />
           <Route path="/cables" element={<Cables data={items} loading={isLoading}/>} />
           <Route path="/others" element={<Others data={items} loading={isLoading}/>} />
-          <Route path="/access/admin/dashboard" element={<AdminDashboard />} />
         </Routes>
       </Router>
     </>
